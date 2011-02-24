@@ -2142,7 +2142,7 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<rails>, ["= 3.1.0.beta"])
+      s.add_runtime_dependency(%q<rails>, ["= 3.0.4"])
       s.add_runtime_dependency(%q<rack>, [">= 0"])
       s.add_runtime_dependency(%q<arel>, [">= 0"])
       s.add_runtime_dependency(%q<meta_search>, [">= 0"])
@@ -2162,7 +2162,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<acts_as_commentable>, ["~> 3.0.0"])
       s.add_runtime_dependency(%q<recaptcha>, [">= 0"])
       s.add_runtime_dependency(%q<sqlite3-ruby>, [">= 0"])
-      s.add_runtime_dependency(%q<rails>, ["= 3.1.0.beta"])
+      s.add_runtime_dependency(%q<rails>, ["= 3.0.4"])
       s.add_runtime_dependency(%q<rack>, ["= 1.2.1"])
       s.add_runtime_dependency(%q<authlogic>, [">= 0"])
       s.add_runtime_dependency(%q<meta_search>, [">= 0"])
@@ -2182,7 +2182,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<recaptcha>, [">= 0"])
       s.add_runtime_dependency(%q<simplecov>, [">= 0"])
     else
-      s.add_dependency(%q<rails>, ["= 3.1.0.beta"])
+      s.add_dependency(%q<rails>, ["= 3.0.4"])
       s.add_dependency(%q<rack>, [">= 0"])
       s.add_dependency(%q<arel>, [">= 0"])
       s.add_dependency(%q<meta_search>, [">= 0"])
@@ -2202,7 +2202,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<acts_as_commentable>, ["~> 3.0.0"])
       s.add_dependency(%q<recaptcha>, [">= 0"])
       s.add_dependency(%q<sqlite3-ruby>, [">= 0"])
-      s.add_dependency(%q<rails>, ["= 3.1.0.beta"])
+      s.add_dependency(%q<rails>, ["= 3.0.4"])
       s.add_dependency(%q<rack>, ["= 1.2.1"])
       s.add_dependency(%q<authlogic>, [">= 0"])
       s.add_dependency(%q<meta_search>, [">= 0"])
@@ -2223,7 +2223,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<simplecov>, [">= 0"])
     end
   else
-    s.add_dependency(%q<rails>, ["= 3.1.0.beta"])
+    s.add_dependency(%q<rails>, ["= 3.0.4"])
     s.add_dependency(%q<rack>, [">= 0"])
     s.add_dependency(%q<arel>, [">= 0"])
     s.add_dependency(%q<meta_search>, [">= 0"])
@@ -2243,7 +2243,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<acts_as_commentable>, ["~> 3.0.0"])
     s.add_dependency(%q<recaptcha>, [">= 0"])
     s.add_dependency(%q<sqlite3-ruby>, [">= 0"])
-    s.add_dependency(%q<rails>, ["= 3.1.0.beta"])
+    s.add_dependency(%q<rails>, ["= 3.0.4"])
     s.add_dependency(%q<rack>, ["= 1.2.1"])
     s.add_dependency(%q<authlogic>, [">= 0"])
     s.add_dependency(%q<meta_search>, [">= 0"])

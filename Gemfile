@@ -15,7 +15,7 @@ gem 'calendar_date_select', :git => 'http://github.com/paneq/calendar_date_selec
 gem 'ri_cal'
 gem 'rakismet'
 gem 'aws-s3', :require => 'aws/s3'
-gem "will_paginate", "~> 3.0.pre3"
+gem "will_paginate", "~> 3.0.pre2"
 gem "dynamic_form"
 gem "friendly_id", "~> 3.2.1"
 gem "paperclip", "~> 2.3"
